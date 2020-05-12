@@ -1,0 +1,13 @@
+name: Python
+version: 0.4.2
+description: Flask web Framework for Python with CORS enabled
+language: python
+maintainers:
+  - name: Chechu
+    email: chechuironman@gmail.com
+    github-id: chechuironman
+default-template: simple
+license: Apache-2.0
+requirements:
+  appsody-version: ">= 0.2.7"
+  docker-version: ">= 17.09.0"
