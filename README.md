@@ -13,10 +13,14 @@ This one modifies the Dockerfiles to fix the user permissions and add `oc` and `
 3. Modify the [stack.yaml](https://github.com/chechuironman/kabanero-python-stack/blob/master/stack.yaml) file with the info of teh new stack.
 4. Package the satck:
 
-```appsody stack package```
+```console 
+appsody stack package
+```
+
 5. Validate the stack:
 
 ```appsody stack validate```
+
 6. Add the stack to the stack hub:
 
 ```appsody stack add-to-repo chechu-repo --release-url https://github.com/chechuironman/kabanero-stacks/releases/latest/download```
