@@ -12,8 +12,8 @@ foo@bar:~$ appsody stack create python-stack --copy incubator/python-flask
 2. Modify the Docker files to change the python base image with the one that contains the `oc` and `htpasswd` commands: 
 - [image/project/Dockerfile](https://github.com/chechuironman/kabanero-python-stack/blob/master/image/project/Dockerfile) 
 - [image/Dockerfile-stack](https://github.com/chechuironman/kabanero-python-stack/blob/master/image/Dockerfile-stack)
-3. Modify the [stack.yaml](https://github.com/chechuironman/kabanero-python-stack/blob/master/stack.yaml) file with the info of teh new stack.
-4. Package the satck:
+3. Modify the [stack.yaml](https://github.com/chechuironman/kabanero-python-stack/blob/master/stack.yaml) file with the info of the new stack.
+4. Package the stack:
 
 ```console 
 foo@bar:~$ appsody stack package
@@ -22,7 +22,7 @@ foo@bar:~$ appsody stack package
 5. Validate the stack:
 
 ```console 
-foo@bar:~$ stack vallidate
+foo@bar:~$ stack validate
 ```
 
 6. Add the stack to the stack hub:
