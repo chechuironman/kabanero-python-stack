@@ -31,6 +31,6 @@ foo@bar:~$ stack vallidate
 foo@bar:~$ appsody stack add-to-repo chechu-repo --release-url https://github.com/chechuironman/kabanero-stacks/releases/latest/download
 ```
 
-In my stack hub you can see instructions on how to expose the files to your OpenShift instance:
+In my Kabanero stack hub you can see instructions on how to expose the files to your OpenShift instance:
 
 [https://github.com/chechuironman/kabanero-stacks](https://github.com/chechuironman/kabanero-stacks)
