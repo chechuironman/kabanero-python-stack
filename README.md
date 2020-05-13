@@ -1,6 +1,6 @@
 # Python Stack 
 
-This python stack is based in the this one https://github.com/appsody/stacks/tree/master/incubator/python-flask
+This python stack is based in the this [one](https://github.com/appsody/stacks/tree/master/incubator/python-flask)
 
 This one modifies the Dockerfiles to fix the user permissions and add `oc` and `htpasswd` commands. This is how I build it:
 
